@@ -1,0 +1,90 @@
+/* Estilo geral da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F0F4EF; /* Fundo verde claro pastel */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Container principal da tela de login */
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* Caixa de login */
+  .login-box {
+    background-color: #FFFFFF; /* Caixa de login com fundo branco */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  /* Título da caixa de login */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #505050; /* Texto cinza escuro suave */
+  }
+  
+  /* Grupo de input */
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Estilo das labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #505050; /* Cor do texto das labels */
+  }
+  
+  /* Estilo dos campos de input */
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #A3C4BC; /* Borda suave em verde água */
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Mudança de borda ao focar nos campos */
+  input:focus {
+    outline: none;
+    border-color: #7BAA99; /* Verde água mais escuro */
+  }
+  
+  /* Estilo do botão de login */
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #A3C4BC; /* Fundo do botão em verde água */
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Mudança de cor do botão ao passar o mouse */
+  .login-button:hover {
+    background-color: #7BAA99; /* Verde água mais escuro ao passar o mouse */
+  }
+  
+  /* Mensagem de erro */
+  .error-message {
+    color: #FF7F7F; /* Vermelho pastel para erros */
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
